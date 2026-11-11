@@ -1,0 +1,35 @@
+# carryout-fta settings for Valley Center, KS. Keep this file out of GitHub.
+
+[site]
+# Valley Center town centre. Swap in your exact spot if you like; it barely changes the angles.
+lat = 37.835
+lon = -97.373
+
+[dish]
+port = "/dev/ttyUSB0"      # Windows: "COM3" or similar
+baud = 57600
+# Mounting corrections: true = dish + offset. Leave at 0 until you have run
+# `calibrate`, which prints the values to put here.
+north_offset = 0.0
+el_offset = 0.0
+# Elevation range the firmware accepts. 73 is the stock ceiling; raise it only
+# after raising the firmware limit (README, "Elevation limits").
+el_min = 22.0
+el_max = 73.0
+# Reflector diameter, used only by the `plan` and `look` signal estimates.
+# 0.40 is a guess for the Carryout; measure yours.
+diameter_m = 0.40
+slew_deg_per_s = 6.0       # guess; lower it if readings are taken mid-move
+settle_s = 1.0
+
+[lnb]
+# Local oscillator of the LNB you fitted. 10750 is the standard North American
+# Ku linear LNB. A universal LNB is 9750 (low band) or 10600 (high band).
+lo_mhz = 10750
+# LO of the stock circular LNB, used for the encrypted "pay beacon" satellites.
+dbs_lo_mhz = 11250
+
+[meter]
+type = "rtlsdr"            # or "manual" to type readings from a receiver/satfinder
+gain = 20.7
+averages = 4

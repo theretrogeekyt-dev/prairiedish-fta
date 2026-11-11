@@ -1,0 +1,4 @@
+pyserial
+# only for the rtlsdr meter:
+pyrtlsdr
+numpy

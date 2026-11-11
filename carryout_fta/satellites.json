@@ -1,0 +1,89 @@
+{
+  "_note": "Longitudes are degrees east (west negative). band 'ku-linear' = free-to-air targets needing a linear LNB; band 'dbs' = encrypted pay-TV satellites, useful only as strong pointing beacons with the stock circular LNB. eirp is [low, high] dBW as published by LyngSat. 'seen' is when the listing was last confirmed by its source; FTA line-ups change without notice, so re-check lyngsat.com.",
+  "satellites": [
+    {
+      "name": "SES 2", "aliases": ["ses2", "87w"], "lon": -87.0, "band": "ku-linear",
+      "eirp": [50, 52], "source": "LyngSat",
+      "transponders": [
+        {"mhz": 12044, "pol": "V", "system": "DVB-S2", "mod": "8PSK", "sr": 3200, "fec": "2/3", "cn": 6.6, "channels": "The Florida Channel", "seen": "2026-05"},
+        {"mhz": 11981, "pol": "V", "system": "DVB-S2", "mod": "8PSK", "sr": 32719, "fec": "3/4", "channels": "SES/Astra demo, test streams", "seen": "2026-05"},
+        {"mhz": 11811, "pol": "H", "system": "DVB-S2", "mod": "8PSK", "sr": 11150, "fec": "3/5", "channels": "LPB (Louisiana PBS)", "seen": "2024-12"}
+      ]
+    },
+    {
+      "name": "Galaxy 19", "aliases": ["g19", "97w"], "lon": -97.0, "band": "ku-linear",
+      "eirp": [46.5, 48.5], "source": "LyngSat, Intelsat",
+      "transponders": [
+        {"mhz": 11842, "pol": "H", "system": "DVB-S", "mod": "QPSK", "sr": 22000, "fec": "3/4", "cn": 5.5, "channels": "Hope Channel, Daystar, LLBN", "seen": "2026-06"},
+        {"mhz": 12184, "pol": "H", "system": "DVB-S2", "mod": "8PSK", "sr": 22500, "fec": "2/3", "channels": "MTA channels", "seen": "2026-06"},
+        {"mhz": 12177, "pol": "V", "system": "DVB-S", "mod": "QPSK", "sr": 23000, "fec": "3/4", "cn": 5.5, "channels": "Al Mayadeen, Bethel TV, radio", "seen": "2025"},
+        {"mhz": 12053, "pol": "V", "system": "DVB-S", "mod": "QPSK", "sr": 22000, "channels": "TBN, WRN and WWCR radio", "seen": "2024-12"},
+        {"mhz": 12084, "pol": "V", "channels": "CCTV 4 America, CGTN Documentary", "seen": "2025-04"},
+        {"mhz": 11966, "pol": "H", "channels": "iFilm English", "seen": "2024-12"},
+        {"mhz": 12152, "pol": "H", "channels": "Impact TV, Yemen TV", "seen": "2024-07"}
+      ]
+    },
+    {
+      "name": "Galaxy 16", "aliases": ["g16", "99w"], "lon": -99.0, "band": "ku-linear",
+      "eirp": [50.4, 50.4], "source": "LyngSat (satellite page dated 2024-10)",
+      "transponders": [
+        {"mhz": 12140, "pol": "V", "system": "DVB-S2", "mod": "8PSK", "sr": 30000, "fec": "3/4", "cn": 7.9, "channels": "PBS East/West, PBS Kids, Create, World, FNX", "seen": "2023-01"},
+        {"mhz": 11993, "pol": "V", "system": "DVB-S2", "mod": "QPSK", "sr": 1075, "fec": "2/3", "cn": 3.1, "channels": "Family Radio (audio)", "seen": "2021-10"},
+        {"mhz": 11718, "pol": "H", "system": "DVB-S2", "mod": "8PSK", "sr": 2390, "fec": "2/3", "cn": 6.6, "channels": "Montana PBS", "seen": "2023-05"},
+        {"mhz": 11806, "pol": "H", "system": "DVB-S2", "mod": "8PSK", "sr": 2390, "fec": "2/3", "cn": 6.6, "channels": "Montana PBS", "seen": "2024-08"}
+      ]
+    },
+    {
+      "name": "SES 1", "aliases": ["ses1", "101w"], "lon": -101.0, "band": "ku-linear",
+      "eirp": [48, 52], "source": "LyngSat",
+      "transponders": [
+        {"mhz": 11804, "pol": "H", "system": "DVB-S2", "mod": "8PSK", "sr": 3200, "fec": "2/3", "channels": "The Florida Channel", "seen": "2026-05"},
+        {"mhz": 11704, "pol": "V", "system": "DVB-S2", "mod": "QPSK", "sr": 3650, "fec": "3/4", "channels": "K-Love, Air 1 (audio)", "seen": "2025-08"},
+        {"mhz": 11710, "pol": "V", "sr": 1107, "fec": "2/3", "cn": 4.4, "channels": "American Family Radio (audio)", "seen": "2024-03"}
+      ]
+    },
+    {
+      "name": "SES 11", "aliases": ["ses11", "amc15", "105w"], "lon": -105.0, "band": "ku-linear",
+      "source": "LyngSat",
+      "transponders": [
+        {"mhz": 11925, "pol": "H", "system": "DVB-S2", "mod": "QPSK", "sr": 3676, "fec": "4/5", "cn": 4.7, "channels": "InfoWars", "seen": "2025-02"}
+      ]
+    },
+    {
+      "name": "Eutelsat 117 West A", "aliases": ["e117", "eutelsat117", "117w"], "lon": -116.8, "band": "ku-linear",
+      "eirp": [46, 47], "source": "LyngSat, FTAList",
+      "transponders": [
+        {"mhz": 12521, "pol": "H", "system": "DVB-S2", "mod": "8PSK", "sr": 2678, "fec": "2/3", "cn": 6.6, "channels": "BYU TV", "seen": "2026-05"},
+        {"mhz": 12124, "pol": "V", "sr": 3332, "channels": "Hope Channel (English, Spanish)", "seen": "2024"}
+      ]
+    },
+    {
+      "name": "Galaxy 18", "aliases": ["g18", "123w"], "lon": -123.0, "band": "ku-linear",
+      "eirp": [46.6, 50.6], "source": "LyngSat",
+      "transponders": [
+        {"mhz": 12008, "pol": "H", "system": "DVB-S", "mod": "QPSK", "sr": 12660, "channels": "Daystar HD", "seen": "2026"},
+        {"mhz": 11731, "pol": "V", "system": "DVB-S", "mod": "QPSK", "sr": 5500, "fec": "3/4", "cn": 5.5, "channels": "Telesecundaria", "seen": "2024-03"}
+      ]
+    },
+    {
+      "name": "Dish 61.5W", "aliases": ["61.5w", "echostar16"], "lon": -61.5, "band": "dbs",
+      "transponders": [{"mhz": 12224, "pol": "R"}, {"mhz": 12370, "pol": "R"}, {"mhz": 12516, "pol": "R"}]
+    },
+    {
+      "name": "Dish 72.7W", "aliases": ["72.7w", "nimiq5"], "lon": -72.7, "band": "dbs",
+      "transponders": [{"mhz": 12224, "pol": "R"}, {"mhz": 12370, "pol": "R"}, {"mhz": 12516, "pol": "R"}]
+    },
+    {
+      "name": "DirecTV 101W", "aliases": ["directv", "dtv101"], "lon": -101.0, "band": "dbs",
+      "transponders": [{"mhz": 12224, "pol": "R"}, {"mhz": 12370, "pol": "R"}, {"mhz": 12516, "pol": "R"}]
+    },
+    {
+      "name": "Dish 110W", "aliases": ["110w", "echostar10"], "lon": -110.0, "band": "dbs",
+      "transponders": [{"mhz": 12224, "pol": "R"}, {"mhz": 12370, "pol": "R"}, {"mhz": 12516, "pol": "R"}]
+    },
+    {
+      "name": "Dish 119W", "aliases": ["119w", "echostar14"], "lon": -119.0, "band": "dbs",
+      "transponders": [{"mhz": 12224, "pol": "R"}, {"mhz": 12370, "pol": "R"}, {"mhz": 12516, "pol": "R"}]
+    }
+  ]
+}
